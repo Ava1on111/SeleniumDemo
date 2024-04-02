@@ -14,10 +14,10 @@ public class SeleniumDriverFactory  {
     // please rename s3214321 this to your own student ID
     SeleniumDriverFactory(){
         // System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        System.setProperty("webdriver.gecko.driver","H:\\drivers\\geckodriver.exe");
+        System.setProperty("webdriver.chrome.driver","E:\\chromedriver_win32\\chromedriver.exe");
     }
     WebDriver getDriver(){
-        return new FirefoxDriver();
+        return new ChromeDriver();
         // return new ChromeDriver();
     }
 

@@ -19,7 +19,7 @@ class HelloSeleniumFacebook{
     void checkFacebookTitle() {
 
         // Step 1. Set system property for either chrome driver (for Chrome browser ) or gecko driver (for Firefox browser)
-        System.setProperty("webdriver.gecko.driver","H:\\drivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","E:\\drivers\\geckodriver.exe");
 
         // Step 2. Instantiate the Web Driver as your driver
         WebDriver myDriver = new FirefoxDriver();
@@ -45,7 +45,7 @@ class HelloSeleniumFacebook{
         // Of course G:\\drivers\\geckodriver.exe should be replaced with
         // the url of where you stored this.
         // Step 1. Set system property for either chrome driver or gecko driver (for Firefox browser)
-        System.setProperty("webdriver.chrome.driver","H:\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","E:\\chromedriver_win32\\chromedriver.exe");
 
         // Step 2. Instantiate the Web Driver as your driver
 
@@ -79,7 +79,7 @@ class HelloSeleniumFacebook{
         // Of course G:\\drivers\\geckodriver.exe should be replaced with
         // the url of where you stored this.
         // Step 1. Set system property for either chrome driver or gecko driver (for Firefox browser)
-        System.setProperty("webdriver.chrome.driver","H:\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","E:\\chromedriver_win32\\chromedriver.exe");
 
         // Step 2. Instantiate the Web Driver as your driver
 
